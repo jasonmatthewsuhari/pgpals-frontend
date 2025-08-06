@@ -9,9 +9,7 @@ const nextConfig = {
     // Only ignore build errors if absolutely necessary for deployment
     // ignoreBuildErrors: false,
   },
-  images: {
-    unoptimized: true,
-  },
+  // Removed unoptimized images setting for proper Vercel deployment
 }
 
 export default nextConfig
