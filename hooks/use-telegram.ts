@@ -17,6 +17,7 @@ export function useTelegram() {
     user,
     colorScheme,
     themeParams,
+    hasCloudStorage: telegramWebApp.hasCloudStorage,
     impactFeedback: telegramWebApp.impactFeedback.bind(telegramWebApp),
     notificationFeedback: telegramWebApp.notificationFeedback.bind(telegramWebApp),
     selectionFeedback: telegramWebApp.selectionFeedback.bind(telegramWebApp),

@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from 'next/font/google'
 import "./globals.css"
 
@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "PGPals Bingo - Telegram Mini App",
   description: "Prince George's Park Pair Activities - A fun bingo game for PGP residents",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://pgpals-bingo.vercel.app'),
   icons: {
     icon: '/pgpals-logo.png',
     apple: '/pgpals-logo.png',
@@ -23,6 +23,13 @@ export const metadata: Metadata = {
     images: ['/pgpals-logo.png'],
     type: 'website',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({

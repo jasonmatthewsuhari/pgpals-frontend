@@ -405,26 +405,26 @@ export default function PGPals() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Horizontal moving particles */}
         <div className="absolute top-16 -left-4 w-0.5 h-0.5 bg-emerald-300/40 rounded-full animate-[moveRight_15s_linear_infinite] will-change-transform"></div>
-        <div className="absolute top-24 -left-4 w-1 h-1 bg-green-200/30 rounded-full animate-[moveRight_20s_linear_infinite] delay-[2s] will-change-transform"></div>
-        <div className="absolute top-32 -left-4 w-0.5 h-0.5 bg-emerald-400/50 rounded-full animate-[moveRight_18s_linear_infinite] delay-[4s] will-change-transform"></div>
-        <div className="absolute top-40 -left-4 w-0.5 h-0.5 bg-green-300/35 rounded-full animate-[moveRight_22s_linear_infinite] delay-[6s] will-change-transform"></div>
-        <div className="absolute top-48 -left-4 w-1 h-1 bg-emerald-200/45 rounded-full animate-[moveRight_16s_linear_infinite] delay-[8s] will-change-transform"></div>
+        <div className="absolute top-24 -left-4 w-1 h-1 bg-green-200/30 rounded-full animate-[moveRight_20s_linear_infinite] delay-2000 will-change-transform"></div>
+        <div className="absolute top-32 -left-4 w-0.5 h-0.5 bg-emerald-400/50 rounded-full animate-[moveRight_18s_linear_infinite] delay-4000 will-change-transform"></div>
+        <div className="absolute top-40 -left-4 w-0.5 h-0.5 bg-green-300/35 rounded-full animate-[moveRight_22s_linear_infinite] delay-6000 will-change-transform"></div>
+        <div className="absolute top-48 -left-4 w-1 h-1 bg-emerald-200/45 rounded-full animate-[moveRight_16s_linear_infinite] delay-8000 will-change-transform"></div>
 
-        <div className="absolute bottom-16 -left-4 w-0.5 h-0.5 bg-emerald-300/40 rounded-full animate-[moveRight_19s_linear_infinite] delay-[1s] will-change-transform"></div>
-        <div className="absolute bottom-24 -left-4 w-0.5 h-0.5 bg-green-200/30 rounded-full animate-[moveRight_17s_linear_infinite] delay-[3s] will-change-transform"></div>
-        <div className="absolute bottom-32 -left-4 w-1 h-1 bg-emerald-400/50 rounded-full animate-[moveRight_21s_linear_infinite] delay-[5s] will-change-transform"></div>
-        <div className="absolute bottom-40 -left-4 w-0.5 h-0.5 bg-green-300/35 rounded-full animate-[moveRight_14s_linear_infinite] delay-[7s] will-change-transform"></div>
+        <div className="absolute bottom-16 -left-4 w-0.5 h-0.5 bg-emerald-300/40 rounded-full animate-[moveRight_19s_linear_infinite] delay-1000 will-change-transform"></div>
+        <div className="absolute bottom-24 -left-4 w-0.5 h-0.5 bg-green-200/30 rounded-full animate-[moveRight_17s_linear_infinite] delay-3000 will-change-transform"></div>
+        <div className="absolute bottom-32 -left-4 w-1 h-1 bg-emerald-400/50 rounded-full animate-[moveRight_21s_linear_infinite] delay-5000 will-change-transform"></div>
+        <div className="absolute bottom-40 -left-4 w-0.5 h-0.5 bg-green-300/35 rounded-full animate-[moveRight_14s_linear_infinite] delay-7000 will-change-transform"></div>
 
         {/* Diagonal moving particles */}
         <div className="absolute top-8 -left-4 w-0.5 h-0.5 bg-emerald-300/30 rounded-full animate-[moveDiagonal_25s_linear_infinite] will-change-transform"></div>
-        <div className="absolute top-48 -left-4 w-1 h-1 bg-green-200/25 rounded-full animate-[moveDiagonal_30s_linear_infinite] delay-[5s] will-change-transform"></div>
-        <div className="absolute bottom-8 -left-4 w-0.5 h-0.5 bg-emerald-400/40 rounded-full animate-[moveDiagonal_28s_linear_infinite] delay-[10s] will-change-transform"></div>
+        <div className="absolute top-48 -left-4 w-1 h-1 bg-green-200/25 rounded-full animate-[moveDiagonal_30s_linear_infinite] delay-5000 will-change-transform"></div>
+        <div className="absolute bottom-8 -left-4 w-0.5 h-0.5 bg-emerald-400/40 rounded-full animate-[moveDiagonal_28s_linear_infinite] delay-10000 will-change-transform"></div>
 
         {/* Vertical floating particles */}
         <div className="absolute left-16 -top-4 w-0.5 h-0.5 bg-emerald-300/35 rounded-full animate-[moveDown_20s_linear_infinite] will-change-transform"></div>
-        <div className="absolute left-32 -top-4 w-1 h-1 bg-green-200/30 rounded-full animate-[moveDown_24s_linear_infinite] delay-[3s] will-change-transform"></div>
-        <div className="absolute right-16 -top-4 w-0.5 h-0.5 bg-emerald-400/45 rounded-full animate-[moveDown_18s_linear_infinite] delay-[6s] will-change-transform"></div>
-        <div className="absolute right-32 -top-4 w-0.5 h-0.5 bg-green-300/40 rounded-full animate-[moveDown_22s_linear_infinite] delay-[9s] will-change-transform"></div>
+        <div className="absolute left-32 -top-4 w-1 h-1 bg-green-200/30 rounded-full animate-[moveDown_24s_linear_infinite] delay-3000 will-change-transform"></div>
+        <div className="absolute right-16 -top-4 w-0.5 h-0.5 bg-emerald-400/45 rounded-full animate-[moveDown_18s_linear_infinite] delay-6000 will-change-transform"></div>
+        <div className="absolute right-32 -top-4 w-0.5 h-0.5 bg-green-300/40 rounded-full animate-[moveDown_22s_linear_infinite] delay-9000 will-change-transform"></div>
       </div>
 
       {/* Subtle Noise Texture */}
